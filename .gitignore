@@ -1,2 +1,9 @@
 venv/
 data
+.env
+.ipynb_checkpoints
+__pycache__/
+Untitled.ipynb
+.ipynb
+test.py
+.csv

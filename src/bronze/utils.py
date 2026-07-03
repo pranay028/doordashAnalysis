@@ -14,7 +14,7 @@ def get_december_to_now_ranges():
     end_date_period = date.today().replace(day=1) - relativedelta(days=1)
     
     # 2. Define the Start Boundary: December 1st of the previous year (2024)
-    start_date_period = date.today().replace(month=12, day=1) - relativedelta(years=1)
+    start_date_period = date.today().replace(month=12, day=1) - relativedelta(years=2)
     
     # --- Date Range Generation ---
     
@@ -42,3 +42,6 @@ def get_december_to_now_ranges():
         ))
         
     return date_ranges
+
+if __name__ == "__main__":
+    print(get_december_to_now_ranges())

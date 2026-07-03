@@ -80,7 +80,7 @@ if __name__ == "__main__":
     # 1. Generate the ranges
     monthly_ranges = get_december_to_now_ranges()
     
-    # 2. Loop through the ranges, fetch data, and SAVE IMMEDIATELY (Bronze Layer Persistence)
+    # 2. Loop through the ranges, fetch data, and SAVE IMMEDIATELY 
     for start_date, end_date in monthly_ranges:
         print(f"\nProcessing data for: {start_date} to {end_date}")
 
